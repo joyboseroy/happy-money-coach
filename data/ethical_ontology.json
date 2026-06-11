@@ -1,0 +1,508 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "description": "Ethical Spending Ontology for Money & Meaning Coach",
+    "lenses": ["universal", "buddhist", "christian", "jewish", "islamic", "stoic"],
+    "score_range": [-1.0, 1.0],
+    "score_meaning": "-1.0 = strongly discouraged, 0.0 = neutral, 1.0 = strongly encouraged"
+  },
+
+  "categories": {
+
+    "Travel": {
+      "human_need": "Experience & Restoration",
+      "value": "Renewal",
+      "virtue": "Vitality",
+      "universal": {
+        "score": 0.65,
+        "reason": "Broadens perspective, creates memories, often strengthens relationships.",
+        "flags": []
+      },
+      "buddhist": {
+        "score": 0.55,
+        "reason": "Travel for pilgrimage, learning, or connection is wholesome. Travel driven by restlessness or escape may reinforce attachment to novelty.",
+        "flags": ["intention matters", "distinguish pilgrimage from distraction"],
+        "positive_aspects": ["pilgrimage", "learning", "family connection"],
+        "caution_aspects": ["escape from discomfort", "excessive luxury"]
+      },
+      "christian": {
+        "score": 0.60,
+        "reason": "Rest is a gift; Sabbath principles support renewal. Family travel affirms relational duties. Excess luxury travel may conflict with stewardship.",
+        "flags": ["stewardship of resources"],
+        "references": ["Genesis 2:2-3", "Exodus 20:8"]
+      },
+      "jewish": {
+        "score": 0.60,
+        "reason": "Oneg (joy) and family connection are valued. Bal tashchit (no waste) asks whether travel impact is proportionate to benefit.",
+        "flags": ["environmental impact consideration"],
+        "concepts": ["oneg", "bal tashchit"]
+      },
+      "islamic": {
+        "score": 0.65,
+        "reason": "Travel for Hajj/Umrah is obligatory and highly virtuous. General travel for learning and family is encouraged. Israf (excess) should be avoided.",
+        "flags": ["avoid israf"],
+        "concepts": ["safar", "hajj", "israf"]
+      },
+      "stoic": {
+        "score": 0.40,
+        "reason": "Stoics are cautious about placing value in external experiences. Travel for learning and duty is acceptable; travel for pleasure alone risks dependence on externals.",
+        "flags": ["examine motivation"],
+        "figures": ["Seneca: Letters 28", "Marcus Aurelius: Meditations 4.3"]
+      }
+    },
+
+    "Learning": {
+      "human_need": "Growth & Understanding",
+      "value": "Wisdom",
+      "virtue": "Prudence",
+      "universal": {
+        "score": 0.90,
+        "reason": "Investment in knowledge is among the most universally endorsed forms of spending across cultures and traditions.",
+        "flags": []
+      },
+      "buddhist": {
+        "score": 0.90,
+        "reason": "Right Understanding (samma ditthi) is the first element of the Noble Eightfold Path. Learning that reduces suffering and increases wisdom is highly encouraged.",
+        "flags": [],
+        "concepts": ["samma ditthi", "panna", "dhamma study"]
+      },
+      "christian": {
+        "score": 0.88,
+        "reason": "The pursuit of wisdom is a biblical virtue. 'Get wisdom; get insight' (Proverbs 4:7). Education serves both self and community.",
+        "flags": [],
+        "references": ["Proverbs 4:7", "Proverbs 1:7"]
+      },
+      "jewish": {
+        "score": 0.95,
+        "reason": "Talmud Torah (study of Torah and wisdom) is a central commandment. Jewish tradition places extraordinary weight on education as a lifelong obligation.",
+        "flags": [],
+        "concepts": ["talmud torah", "chochma (wisdom)", "binah (understanding)"]
+      },
+      "islamic": {
+        "score": 0.92,
+        "reason": "The first word of revelation was 'Iqra' (Read). Seeking knowledge is a religious obligation. 'Seek knowledge from the cradle to the grave.'",
+        "flags": [],
+        "concepts": ["ilm (knowledge)", "iqra", "fard kifaya"]
+      },
+      "stoic": {
+        "score": 0.88,
+        "reason": "Wisdom (sophia) is one of the four cardinal Stoic virtues and the foundation of all others. Education that builds virtue is among the highest uses of resources.",
+        "flags": [],
+        "figures": ["Epictetus: Discourses 2.5", "Seneca: Letters 88"]
+      }
+    },
+
+    "Health": {
+      "human_need": "Wellbeing & Functioning",
+      "value": "Stewardship of Self",
+      "virtue": "Temperance",
+      "universal": {
+        "score": 0.80,
+        "reason": "Health spending is widely endorsed as responsible self-care and a precondition for all other activities.",
+        "flags": []
+      },
+      "buddhist": {
+        "score": 0.75,
+        "reason": "The Buddha himself taught that illness is one of life's inherent sufferings. Health maintenance supports the capacity to practice and serve others. Excessive vanity-driven health spending may reflect attachment.",
+        "flags": ["distinguish necessity from vanity"],
+        "concepts": ["dukkha (illness as inherent suffering)", "middle way in self-care"]
+      },
+      "christian": {
+        "score": 0.82,
+        "reason": "The body is the temple of the Holy Spirit (1 Corinthians 6:19-20). Care for bodily health is a stewardship duty.",
+        "flags": [],
+        "references": ["1 Corinthians 6:19-20", "3 John 1:2"]
+      },
+      "jewish": {
+        "score": 0.85,
+        "reason": "Pikuach nefesh (preservation of life) overrides nearly all other commandments. Health spending is a moral priority.",
+        "flags": [],
+        "concepts": ["pikuach nefesh", "shmirat haguf (guarding the body)"]
+      },
+      "islamic": {
+        "score": 0.83,
+        "reason": "The body is an amanah (trust) from Allah. Health maintenance is an obligation. The Prophet said: 'Your body has a right over you.'",
+        "flags": [],
+        "concepts": ["amanah", "hifz al-nafs (preservation of life)"]
+      },
+      "stoic": {
+        "score": 0.65,
+        "reason": "Stoics consider health a 'preferred indifferent' — worth pursuing but not the highest good. Reasonable health spending is appropriate; obsession with bodily perfection is a distraction from virtue.",
+        "flags": ["do not overvalue physical health"],
+        "figures": ["Epictetus: Enchiridion 9"]
+      }
+    },
+
+    "Family": {
+      "human_need": "Belonging & Love",
+      "value": "Relationship",
+      "virtue": "Generosity",
+      "universal": {
+        "score": 0.88,
+        "reason": "Spending on family relationships is among the most consistently endorsed across all traditions and happiness research.",
+        "flags": []
+      },
+      "buddhist": {
+        "score": 0.82,
+        "reason": "Metta (loving-kindness) begins with those nearest. Dana (generosity) toward family is wholesome. The Sigalovada Sutta outlines duties toward family as a core ethical obligation.",
+        "flags": [],
+        "concepts": ["metta", "dana", "Sigalovada Sutta", "kalyana-mitta (good friends)"]
+      },
+      "christian": {
+        "score": 0.90,
+        "reason": "Family is a divinely ordained structure. Caring for parents is a commandment (Exodus 20:12). 'Anyone who does not provide for their relatives has denied the faith' (1 Timothy 5:8).",
+        "flags": [],
+        "references": ["Exodus 20:12", "1 Timothy 5:8", "Ephesians 5:25"]
+      },
+      "jewish": {
+        "score": 0.92,
+        "reason": "Kibud av va'em (honouring parents) is one of the Ten Commandments. Family obligations are central to halacha. Tzedakah begins with one's own family.",
+        "flags": [],
+        "concepts": ["kibud av va'em", "tzedakah hierarchy", "shalom bayit (household peace)"]
+      },
+      "islamic": {
+        "score": 0.91,
+        "reason": "Nafaqa (financial provision for family) is a fard (obligation) for heads of household. Silat al-rahim (maintaining family ties) is strongly commanded.",
+        "flags": [],
+        "concepts": ["nafaqa", "silat al-rahim", "fard obligation"]
+      },
+      "stoic": {
+        "score": 0.72,
+        "reason": "The Stoic concept of oikeiosis (natural affection) supports spending on close relationships. Family duties are part of one's role (kathêkon). Epictetus emphasised fulfilling one's roles well.",
+        "flags": [],
+        "figures": ["Epictetus: Discourses 2.10", "Marcus Aurelius: Meditations 6.30"]
+      }
+    },
+
+    "Charity": {
+      "human_need": "Meaning & Connection",
+      "value": "Generosity",
+      "virtue": "Generosity",
+      "universal": {
+        "score": 0.95,
+        "reason": "Charitable giving is universally endorsed across all ethical traditions as one of the highest uses of money.",
+        "flags": []
+      },
+      "buddhist": {
+        "score": 0.95,
+        "reason": "Dana (generosity) is the first of the ten paramitas and the foundation of Buddhist practice. The act of giving reduces attachment and generates merit. Giving to the Sangha, the poor, and those who suffer is strongly encouraged.",
+        "flags": [],
+        "concepts": ["dana", "paramita", "punna (merit)", "sangha support"]
+      },
+      "christian": {
+        "score": 0.95,
+        "reason": "Tithing and charitable giving are central biblical duties. 'Whoever is kind to the poor lends to the Lord' (Proverbs 19:17). The parable of the Good Samaritan elevates practical care for others.",
+        "flags": [],
+        "references": ["Proverbs 19:17", "Matthew 25:35-40", "2 Corinthians 9:7", "Luke 10:25-37"]
+      },
+      "jewish": {
+        "score": 0.97,
+        "reason": "Tzedakah is not optional charity but justice — a legal and moral obligation. Maimonides' eight levels of tzedakah describe giving that preserves dignity. Min 10% of income is a halachic norm.",
+        "flags": [],
+        "concepts": ["tzedakah", "Maimonides' ladder", "tikkun olam", "maaser (tithe)"]
+      },
+      "islamic": {
+        "score": 0.97,
+        "reason": "Zakat (obligatory almsgiving at 2.5% of wealth) is one of the Five Pillars. Sadaqah (voluntary charity) is strongly encouraged. 'Whoever saves one life has saved all of humanity' (5:32).",
+        "flags": [],
+        "concepts": ["zakat", "sadaqah", "infaq (spending in God's way)", "Five Pillars"]
+      },
+      "stoic": {
+        "score": 0.80,
+        "reason": "Justice (dikaiosyne) is a cardinal Stoic virtue and includes duties to the broader community. Marcus Aurelius wrote extensively about service to humanity. Giving from reason rather than emotion is preferred.",
+        "flags": [],
+        "figures": ["Marcus Aurelius: Meditations 8.7", "Seneca: On Benefits"]
+      }
+    },
+
+    "Shopping": {
+      "human_need": "Utility & Desire",
+      "value": "Mixed",
+      "virtue": "Temperance",
+      "universal": {
+        "score": 0.20,
+        "reason": "Discretionary shopping correlates weakly with lasting wellbeing in happiness research. The hedonic treadmill: satisfaction fades quickly.",
+        "flags": ["examine necessity vs desire", "hedonic adaptation"]
+      },
+      "buddhist": {
+        "score": 0.10,
+        "reason": "Tanha (craving) is identified as the Second Noble Truth — the origin of suffering. Impulse shopping often reflects upadana (clinging). Right Livelihood and consumption should be guided by need, not craving.",
+        "flags": ["high risk of feeding craving", "tanha", "upadana"],
+        "concepts": ["tanha", "upadana", "Second Noble Truth", "Right Livelihood"],
+        "caution": "HIGH: Impulse and status-driven shopping is among the most craving-reinforcing spending patterns."
+      },
+      "christian": {
+        "score": 0.25,
+        "reason": "Materialism and the 'love of money' (1 Timothy 6:10) are cautioned against. Stewardship asks: is this a responsible use of what I have been given? Excessive consumption reflects the sin of greed.",
+        "flags": ["potential greed concern", "stewardship question"],
+        "references": ["1 Timothy 6:10", "Luke 12:15", "Matthew 6:19-21"]
+      },
+      "jewish": {
+        "score": 0.25,
+        "reason": "Bal tashchit (no unnecessary destruction/waste) cautions against overconsumption. Conspicuous consumption conflicts with tzniut (modesty). Necessary goods are fine; excess is questioned.",
+        "flags": ["bal tashchit concern", "tzniut"],
+        "concepts": ["bal tashchit", "tzniut (modesty)", "histapkut (contentment)"]
+      },
+      "islamic": {
+        "score": 0.15,
+        "reason": "Israf (extravagance/excess) is explicitly prohibited in the Quran: 'Do not be extravagant; indeed He does not like the extravagant' (6:141). Tabdhir (wasteful spending) is strongly condemned.",
+        "flags": ["israf risk", "tabdhir risk"],
+        "concepts": ["israf", "tabdhir", "Quran 6:141", "Quran 17:26-27"],
+        "caution": "HIGH: Excessive shopping is among the most cautioned spending types in Islamic ethics."
+      },
+      "stoic": {
+        "score": 0.15,
+        "reason": "Stoics counsel examining every desire: 'Is this from reason or from passion?' Consumerism is driven by epithumia (appetite/passion), which obscures virtue. 'Seek not that the things which happen should happen as you wish; but wish the things which happen to be as they are' (Epictetus).",
+        "flags": ["examine origin of desire", "risk of passion-driven spending"],
+        "figures": ["Epictetus: Enchiridion 8", "Seneca: Letters 5"]
+      }
+    },
+
+    "Food": {
+      "human_need": "Sustenance & Pleasure",
+      "value": "Nourishment",
+      "virtue": "Temperance",
+      "universal": {
+        "score": 0.55,
+        "reason": "Food spending is necessary; the question is whether it serves nourishment, connection, and pleasure appropriately vs excess.",
+        "flags": ["frequency and context matter"]
+      },
+      "buddhist": {
+        "score": 0.50,
+        "reason": "Right Livelihood includes mindful consumption. The Buddha taught moderation in eating (bhojane mattannuta). Eating for pleasure alone is cautioned; eating in community or for sustenance is fine.",
+        "flags": ["mindfulness of consumption"],
+        "concepts": ["bhojane mattannuta (moderation in food)", "mindful eating"]
+      },
+      "christian": {
+        "score": 0.58,
+        "reason": "Food is God's provision; meals shared in community have deep significance (Lord's Supper). Gluttony is a cautioned sin. Sharing food with the hungry is a moral obligation.",
+        "flags": ["gluttony caution for excess"],
+        "references": ["Luke 22:19", "Proverbs 23:20-21"]
+      },
+      "jewish": {
+        "score": 0.55,
+        "reason": "Kashrut (dietary laws) add an ethical dimension to all food spending. Eating with awareness of divine provision is a mitzvah. Excess and wastefulness are cautioned.",
+        "flags": ["kashrut consideration if applicable"],
+        "concepts": ["kashrut", "brachot (blessings before eating)", "brit milah context"]
+      },
+      "islamic": {
+        "score": 0.55,
+        "reason": "Halal food is an obligation. Moderation in eating is a Prophetic teaching: 'Fill one third with food, one third with drink, one third with air.' Eating in community is blessed.",
+        "flags": ["halal compliance", "avoid israf in food"],
+        "concepts": ["halal", "Prophetic diet", "israf"]
+      },
+      "stoic": {
+        "score": 0.50,
+        "reason": "Food should serve the body's rational functioning. Epicurean excess was criticised. Cato and Marcus Aurelius modelled simple eating. Shared meals have social virtue.",
+        "flags": ["simple over luxurious"],
+        "figures": ["Marcus Aurelius: Meditations 6.16", "Epictetus: Enchiridion 33"]
+      }
+    },
+
+    "Entertainment": {
+      "human_need": "Rest & Pleasure",
+      "value": "Recreation",
+      "virtue": "Temperance",
+      "universal": {
+        "score": 0.55,
+        "reason": "Rest and recreation are legitimate human needs. The concern is whether entertainment is conscious choice or numbing escape.",
+        "flags": ["distinguish rest from avoidance"]
+      },
+      "buddhist": {
+        "score": 0.40,
+        "reason": "The Sigalovada Sutta lists 'addiction to shows and entertainments' as one of the ways wealth is destroyed. Mindful rest is different from habitual distraction. Media consumption can feed or reduce craving depending on content.",
+        "flags": ["potential distraction concern", "examine content and motivation"],
+        "concepts": ["Sigalovada Sutta", "upadana through media", "samvega (spiritual urgency)"]
+      },
+      "christian": {
+        "score": 0.52,
+        "reason": "Leisure is part of the Sabbath gift. However, entertainment that promotes values contrary to virtue should be examined. Cultural engagement is not inherently problematic.",
+        "flags": ["content matters"],
+        "references": ["Philippians 4:8 (think on worthy things)"]
+      },
+      "jewish": {
+        "score": 0.50,
+        "reason": "Simcha (joy) is a religious obligation on Shabbat and holidays. Appropriate entertainment is valued. Excessive or wasteful entertainment conflicts with bitul zman (wasting time).",
+        "flags": ["bitul zman concern for excess"],
+        "concepts": ["simcha", "bitul zman"]
+      },
+      "islamic": {
+        "score": 0.45,
+        "reason": "Permissible entertainment (lahw mubah) is allowed in moderation. Music, theatre and film have varying scholarly opinions. Time is an amanah (trust) and excessive entertainment is discouraged.",
+        "flags": ["scholarly variation on types", "avoid excess time consumption"],
+        "concepts": ["lahw mubah", "amanah of time"]
+      },
+      "stoic": {
+        "score": 0.35,
+        "reason": "Seneca cautioned against spectacles and passive entertainment as 'returning from the crowd more greedy, more ambitious, more voluptuous.' Active, improving leisure differs from passive distraction.",
+        "flags": ["passive consumption is a concern"],
+        "figures": ["Seneca: Letters 7"]
+      }
+    },
+
+    "Bills": {
+      "human_need": "Security & Infrastructure",
+      "value": "Responsibility",
+      "virtue": "Prudence",
+      "universal": {
+        "score": 0.60,
+        "reason": "Meeting obligations and maintaining basic infrastructure is responsible and widely endorsed.",
+        "flags": []
+      },
+      "buddhist": {
+        "score": 0.60,
+        "reason": "Meeting one's obligations reduces mental burden and supports right livelihood. The Buddha praised householders who maintain their responsibilities without excess.",
+        "flags": [],
+        "concepts": ["right livelihood", "dana to infrastructure as social duty"]
+      },
+      "christian": {
+        "score": 0.65,
+        "reason": "Paul wrote: 'Let everyone be subject to governing authorities' (Romans 13:1). Paying bills and taxes is a civic and moral duty.",
+        "flags": [],
+        "references": ["Romans 13:1-7", "Matthew 22:21"]
+      },
+      "jewish": {
+        "score": 0.65,
+        "reason": "Dina d'malkhuta dina (the law of the land is the law). Meeting financial obligations is a halachic requirement.",
+        "flags": [],
+        "concepts": ["dina d'malkhuta dina"]
+      },
+      "islamic": {
+        "score": 0.62,
+        "reason": "Fulfilling contracts and obligations (wafa bil-aqd) is a Quranic injunction. Paying what is owed is a matter of trust and integrity.",
+        "flags": [],
+        "concepts": ["wafa bil-aqd", "amanah"]
+      },
+      "stoic": {
+        "score": 0.68,
+        "reason": "Fulfilling one's duties and obligations (kathêkon) is a core Stoic virtue. Paying bills is meeting one's role in the social order without complaint.",
+        "flags": [],
+        "figures": ["Marcus Aurelius: Meditations 6.2"]
+      }
+    },
+
+    "Investments": {
+      "human_need": "Security & Future",
+      "value": "Prudence",
+      "virtue": "Prudence",
+      "universal": {
+        "score": 0.72,
+        "reason": "Prudent investment for future security is widely endorsed. Speculative or harmful investments are a concern.",
+        "flags": ["examine what is being invested in"]
+      },
+      "buddhist": {
+        "score": 0.62,
+        "reason": "The Sigalovada Sutta advises the householder to save one quarter of income. Prudent provision for family is wholesome. However, excessive accumulation driven by fear or greed should be examined.",
+        "flags": ["examine motivation: prudence vs greed"],
+        "concepts": ["Sigalovada Sutta wealth allocation", "dana balance with savings"]
+      },
+      "christian": {
+        "score": 0.65,
+        "reason": "The Parable of the Talents (Matthew 25:14-30) affirms wise stewardship of resources. Investment should serve long-term flourishing, not merely accumulation.",
+        "flags": ["stewardship frame"],
+        "references": ["Matthew 25:14-30", "Proverbs 21:20"]
+      },
+      "jewish": {
+        "score": 0.68,
+        "reason": "Hishtadlut (human effort toward material provision) is obligatory. Wise investment is considered a religious responsibility. Ribbit (usury/interest) in certain forms is prohibited.",
+        "flags": ["ribbit concern for interest-based instruments"],
+        "concepts": ["hishtadlut", "ribbit (usury)", "hekdesh (sacred funds)"]
+      },
+      "islamic": {
+        "score": 0.55,
+        "reason": "Riba (interest/usury) is strictly prohibited (Quran 2:275). Islamic finance offers halal alternatives: mudarabah, musharakah. Investments in haram industries (alcohol, gambling, weapons) are prohibited.",
+        "flags": ["riba concern", "haram sector screen required"],
+        "concepts": ["riba", "mudarabah", "musharakah", "halal investment screen"]
+      },
+      "stoic": {
+        "score": 0.58,
+        "reason": "Wealth is a 'preferred indifferent.' Prudent provision for necessities is reasonable; obsessive accumulation confuses external goods with true virtue.",
+        "flags": ["examine attachment to accumulation"],
+        "figures": ["Seneca: Letters 17", "Epictetus: Discourses 4.9"]
+      }
+    },
+
+    "Income": {
+      "human_need": "Security & Agency",
+      "value": "Right Livelihood",
+      "virtue": "Prudence",
+      "universal": {
+        "score": 0.80,
+        "reason": "Receiving income through honest work is universally endorsed. The ethical question is the nature of the work.",
+        "flags": ["examine source of income"]
+      },
+      "buddhist": {
+        "score": 0.80,
+        "reason": "Right Livelihood (samma ajiva) is the fifth element of the Noble Eightfold Path. Income from work that does not harm living beings, involves no deception, and contributes to society is fully wholesome.",
+        "flags": ["examine right livelihood alignment"],
+        "concepts": ["samma ajiva", "Noble Eightfold Path", "prohibited trades: weapons, slavery, meat, poisons, intoxicants"]
+      },
+      "christian": {
+        "score": 0.82,
+        "reason": "Work is a calling (vocation). 'The worker deserves wages' (Luke 10:7). Honest labour is honourable; dishonest or harmful work conflicts with Christian ethics.",
+        "flags": [],
+        "references": ["Luke 10:7", "Ephesians 4:28", "Colossians 3:23"]
+      },
+      "jewish": {
+        "score": 0.82,
+        "reason": "Avodah (work) is dignified. Honest trade (emet in business) is obligatory. Ona'ah (fraudulent pricing or deception) is strictly prohibited.",
+        "flags": ["ona'ah prohibition"],
+        "concepts": ["avodah", "emet (truth in business)", "ona'ah"]
+      },
+      "islamic": {
+        "score": 0.82,
+        "reason": "Kasb (earning) through halal means is a religious obligation. The Prophet said: 'The honest, trustworthy merchant will be with the prophets.' Income must come from permissible sources.",
+        "flags": ["halal source required"],
+        "concepts": ["halal kasb", "amanah (trustworthiness in business)"]
+      },
+      "stoic": {
+        "score": 0.75,
+        "reason": "Work that fulfils one's role and serves the community is virtuous. Work driven purely by greed or that harms others conflicts with justice (dikaiosyne).",
+        "flags": [],
+        "figures": ["Marcus Aurelius: Meditations 4.4"]
+      }
+    }
+  },
+
+  "special_categories": {
+    "gambling": {
+      "human_need": "Excitement & Risk",
+      "value": "Questionable",
+      "universal": {"score": -0.50, "reason": "High risk of harm; rarely serves genuine human needs."},
+      "buddhist": {"score": -0.80, "reason": "Strongly feeds craving (tanha) and attachment. The Sigalovada Sutta explicitly lists gambling as a way wealth is squandered.", "concepts": ["tanha", "Sigalovada Sutta"]},
+      "christian": {"score": -0.70, "reason": "Stewardship concerns; potential addiction; exploitation of hope.", "references": ["1 Timothy 6:9"]},
+      "jewish": {"score": -0.75, "reason": "Halacha disqualifies gamblers as witnesses; gambling has no productive basis.", "concepts": ["pasul le'edut (disqualified witness)"]},
+      "islamic": {"score": -1.00, "reason": "Maysir (gambling) is explicitly prohibited in the Quran alongside alcohol.", "concepts": ["maysir", "Quran 5:90-91"]},
+      "stoic": {"score": -0.70, "reason": "Entirely driven by passion and externals; no relationship to virtue."}
+    },
+    "alcohol_tobacco": {
+      "human_need": "Habit & Social",
+      "value": "Questionable",
+      "universal": {"score": -0.40, "reason": "Health harm and potential addiction; moderate contextual use differs from habitual consumption."},
+      "buddhist": {"score": -0.90, "reason": "The fifth precept (sila) explicitly includes abstaining from intoxicants that cloud the mind.", "concepts": ["panca-sila", "fifth precept", "intoxicants"]},
+      "christian": {"score": -0.35, "reason": "Moderate wine is not prohibited; drunkenness and addiction are cautioned (Ephesians 5:18).", "references": ["Ephesians 5:18", "1 Corinthians 6:12"]},
+      "jewish": {"score": -0.30, "reason": "Wine is used in religious ritual; drunkenness is cautioned.", "concepts": ["kiddush wine", "prohibition of drunkenness"]},
+      "islamic": {"score": -1.00, "reason": "Alcohol (khamr) is haram — explicitly prohibited in the Quran.", "concepts": ["khamr", "Quran 5:90"]},
+      "stoic": {"score": -0.60, "reason": "Intoxication clouds reason, which is the highest faculty. Stoics counselled strict moderation.", "figures": ["Seneca: Letters 83"]}
+    },
+    "fast_fashion": {
+      "human_need": "Appearance & Status",
+      "value": "Questionable",
+      "universal": {"score": -0.30, "reason": "Environmental harm, labour exploitation in supply chains, low lasting satisfaction."},
+      "buddhist": {"score": -0.40, "reason": "Feeds status-seeking and attachment; contributes to global suffering through labour exploitation.", "concepts": ["right livelihood", "ahimsa (non-harm)"]},
+      "christian": {"score": -0.40, "reason": "Environmental stewardship concerns; vanity and status-seeking cautioned.", "references": ["1 Timothy 2:9", "Proverbs 31:25"]},
+      "jewish": {"score": -0.35, "reason": "Bal tashchit concerns (environmental waste); tzniut (modesty) over display.", "concepts": ["bal tashchit", "tzniut"]},
+      "islamic": {"score": -0.45, "reason": "Israf (excess) concern; modesty (haya) principle; labour exploitation conflicts with Islamic labour ethics.", "concepts": ["israf", "haya", "fair treatment of workers"]},
+      "stoic": {"score": -0.50, "reason": "Driven by social comparison and externals; a paradigm case of confusing preferred indifferents with virtue.", "figures": ["Epictetus: Enchiridion 33"]}
+    }
+  },
+
+  "virtue_map": {
+    "Generosity":    {"categories": ["Charity", "Family"], "buddhist": "dana", "christian": "charity", "jewish": "tzedakah", "islamic": "zakat/sadaqah", "stoic": "justice"},
+    "Wisdom":        {"categories": ["Learning"], "buddhist": "panna", "christian": "prudence", "jewish": "chochma", "islamic": "ilm", "stoic": "sophia"},
+    "Temperance":    {"categories": ["Food", "Entertainment", "Shopping"], "buddhist": "sila", "christian": "temperance", "jewish": "histapkut", "islamic": "iqtisad", "stoic": "sophrosyne"},
+    "Prudence":      {"categories": ["Investments", "Bills", "Health"], "buddhist": "samma sankappa", "christian": "stewardship", "jewish": "hishtadlut", "islamic": "amanah", "stoic": "phronesis"},
+    "Vitality":      {"categories": ["Travel", "Health"], "buddhist": "viriya (energy)", "christian": "sabbath renewal", "jewish": "oneg", "islamic": "safar", "stoic": "preferred indifferent"},
+    "Right Livelihood": {"categories": ["Income"], "buddhist": "samma ajiva", "christian": "vocation", "jewish": "avodah", "islamic": "halal kasb", "stoic": "duty/kathêkon"}
+  }
+}

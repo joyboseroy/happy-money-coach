@@ -1,0 +1,440 @@
+{
+  "merchants": {
+    "amazon": {
+      "category": "Shopping",
+      "happy_money_prior": 0.35
+    },
+    "amzn": {
+      "category": "Shopping",
+      "happy_money_prior": 0.35
+    },
+    "flipkart": {
+      "category": "Shopping",
+      "happy_money_prior": 0.38
+    },
+    "myntra": {
+      "category": "Shopping",
+      "happy_money_prior": 0.4
+    },
+    "swiggy": {
+      "category": "Food",
+      "happy_money_prior": 0.45
+    },
+    "zomato": {
+      "category": "Food",
+      "happy_money_prior": 0.45
+    },
+    "uber eats": {
+      "category": "Food",
+      "happy_money_prior": 0.42
+    },
+    "irctc": {
+      "category": "Travel",
+      "happy_money_prior": 0.78
+    },
+    "makemytrip": {
+      "category": "Travel",
+      "happy_money_prior": 0.8
+    },
+    "goibibo": {
+      "category": "Travel",
+      "happy_money_prior": 0.8
+    },
+    "airbnb": {
+      "category": "Travel",
+      "happy_money_prior": 0.82
+    },
+    "indigo": {
+      "category": "Travel",
+      "happy_money_prior": 0.76
+    },
+    "air india": {
+      "category": "Travel",
+      "happy_money_prior": 0.76
+    },
+    "spicejet": {
+      "category": "Travel",
+      "happy_money_prior": 0.76
+    },
+    "ola": {
+      "category": "Travel",
+      "happy_money_prior": 0.55
+    },
+    "uber": {
+      "category": "Travel",
+      "happy_money_prior": 0.55
+    },
+    "udemy": {
+      "category": "Learning",
+      "happy_money_prior": 0.85
+    },
+    "coursera": {
+      "category": "Learning",
+      "happy_money_prior": 0.85
+    },
+    "skillshare": {
+      "category": "Learning",
+      "happy_money_prior": 0.82
+    },
+    "kindle": {
+      "category": "Learning",
+      "happy_money_prior": 0.88
+    },
+    "audible": {
+      "category": "Learning",
+      "happy_money_prior": 0.86
+    },
+    "apollo": {
+      "category": "Health",
+      "happy_money_prior": 0.65
+    },
+    "medplus": {
+      "category": "Health",
+      "happy_money_prior": 0.65
+    },
+    "netmeds": {
+      "category": "Health",
+      "happy_money_prior": 0.62
+    },
+    "practo": {
+      "category": "Health",
+      "happy_money_prior": 0.68
+    },
+    "cult.fit": {
+      "category": "Health",
+      "happy_money_prior": 0.75
+    },
+    "gym": {
+      "category": "Health",
+      "happy_money_prior": 0.72
+    },
+    "netflix": {
+      "category": "Entertainment",
+      "happy_money_prior": 0.6
+    },
+    "spotify": {
+      "category": "Entertainment",
+      "happy_money_prior": 0.68
+    },
+    "hotstar": {
+      "category": "Entertainment",
+      "happy_money_prior": 0.58
+    },
+    "prime video": {
+      "category": "Entertainment",
+      "happy_money_prior": 0.6
+    },
+    "bookmyshow": {
+      "category": "Entertainment",
+      "happy_money_prior": 0.72
+    },
+    "electricity": {
+      "category": "Bills",
+      "happy_money_prior": 0.2
+    },
+    "bescom": {
+      "category": "Bills",
+      "happy_money_prior": 0.2
+    },
+    "bwssb": {
+      "category": "Bills",
+      "happy_money_prior": 0.2
+    },
+    "airtel": {
+      "category": "Bills",
+      "happy_money_prior": 0.25
+    },
+    "jio": {
+      "category": "Bills",
+      "happy_money_prior": 0.25
+    },
+    "bsnl": {
+      "category": "Bills",
+      "happy_money_prior": 0.22
+    },
+    "hdfc bank": {
+      "category": "Bills",
+      "happy_money_prior": 0.2
+    },
+    "gfk": {
+      "category": "Charity",
+      "happy_money_prior": 0.9
+    },
+    "give india": {
+      "category": "Charity",
+      "happy_money_prior": 0.92
+    },
+    "milaap": {
+      "category": "Charity",
+      "happy_money_prior": 0.91
+    },
+    "ketto": {
+      "category": "Charity",
+      "happy_money_prior": 0.9
+    },
+    "zerodha": {
+      "category": "Investments",
+      "happy_money_prior": 0.7
+    },
+    "groww": {
+      "category": "Investments",
+      "happy_money_prior": 0.7
+    },
+    "mutual fund": {
+      "category": "Investments",
+      "happy_money_prior": 0.72
+    },
+    "ppf": {
+      "category": "Investments",
+      "happy_money_prior": 0.75
+    },
+    "namdroling": {
+      "category": "Charity",
+      "happy_money_prior": 0.95
+    },
+    "namdroling monastery": {
+      "category": "Charity",
+      "happy_money_prior": 0.95
+    },
+    "dhamma": {
+      "category": "Health",
+      "happy_money_prior": 0.92
+    },
+    "vipassana": {
+      "category": "Health",
+      "happy_money_prior": 0.93
+    },
+    "meditation": {
+      "category": "Health",
+      "happy_money_prior": 0.92
+    },
+    "salary": {
+      "category": "Income",
+      "happy_money_prior": 0.9
+    },
+    "sal cr": {
+      "category": "Income",
+      "happy_money_prior": 0.9
+    },
+    "neft cr": {
+      "category": "Income",
+      "happy_money_prior": 0.88
+    },
+    "imps cr": {
+      "category": "Income",
+      "happy_money_prior": 0.88
+    },
+    "rtgs cr": {
+      "category": "Income",
+      "happy_money_prior": 0.88
+    },
+    "ecs cr": {
+      "category": "Income",
+      "happy_money_prior": 0.88
+    },
+    "inward neft": {
+      "category": "Income",
+      "happy_money_prior": 0.88
+    },
+    "inward rtgs": {
+      "category": "Income",
+      "happy_money_prior": 0.88
+    },
+    "credit interest": {
+      "category": "Income",
+      "happy_money_prior": 0.7
+    },
+    "interest credit": {
+      "category": "Income",
+      "happy_money_prior": 0.7
+    },
+    "dividend": {
+      "category": "Income",
+      "happy_money_prior": 0.75
+    },
+    "refund": {
+      "category": "Income",
+      "happy_money_prior": 0.72
+    },
+    "cashback": {
+      "category": "Income",
+      "happy_money_prior": 0.72
+    },
+    "reversal": {
+      "category": "Income",
+      "happy_money_prior": 0.65
+    },
+    "upstox": {
+      "category": "Investments",
+      "happy_money_prior": 0.7
+    },
+    "angel broking": {
+      "category": "Investments",
+      "happy_money_prior": 0.68
+    },
+    "angel one": {
+      "category": "Investments",
+      "happy_money_prior": 0.68
+    },
+    "motilal oswal": {
+      "category": "Investments",
+      "happy_money_prior": 0.68
+    },
+    "sharekhan": {
+      "category": "Investments",
+      "happy_money_prior": 0.68
+    },
+    "icici direct": {
+      "category": "Investments",
+      "happy_money_prior": 0.68
+    },
+    "hdfc sec": {
+      "category": "Investments",
+      "happy_money_prior": 0.68
+    },
+    "kotak sec": {
+      "category": "Investments",
+      "happy_money_prior": 0.68
+    },
+    "nse clearing": {
+      "category": "Investments",
+      "happy_money_prior": 0.7
+    },
+    "bse clearing": {
+      "category": "Investments",
+      "happy_money_prior": 0.7
+    },
+    "cdsl": {
+      "category": "Investments",
+      "happy_money_prior": 0.68
+    },
+    "nsdl": {
+      "category": "Investments",
+      "happy_money_prior": 0.68
+    },
+    "demat": {
+      "category": "Investments",
+      "happy_money_prior": 0.68
+    },
+    "dmat": {
+      "category": "Investments",
+      "happy_money_prior": 0.68
+    },
+    "mf purchase": {
+      "category": "Investments",
+      "happy_money_prior": 0.72
+    },
+    "sip": {
+      "category": "Investments",
+      "happy_money_prior": 0.74
+    },
+    "systematic investment": {
+      "category": "Investments",
+      "happy_money_prior": 0.74
+    },
+    "nps": {
+      "category": "Investments",
+      "happy_money_prior": 0.74
+    },
+    "elss": {
+      "category": "Investments",
+      "happy_money_prior": 0.73
+    },
+    "lic premium": {
+      "category": "Investments",
+      "happy_money_prior": 0.65
+    },
+    "life insurance": {
+      "category": "Investments",
+      "happy_money_prior": 0.65
+    },
+    "emi": {
+      "category": "Bills",
+      "happy_money_prior": 0.3
+    },
+    "loan emi": {
+      "category": "Bills",
+      "happy_money_prior": 0.28
+    },
+    "home loan": {
+      "category": "Bills",
+      "happy_money_prior": 0.35
+    },
+    "car loan": {
+      "category": "Bills",
+      "happy_money_prior": 0.3
+    },
+    "personal loan": {
+      "category": "Bills",
+      "happy_money_prior": 0.25
+    },
+    "nach dr": {
+      "category": "Bills",
+      "happy_money_prior": 0.28
+    },
+    "ecs dr": {
+      "category": "Bills",
+      "happy_money_prior": 0.28
+    },
+    "nach debit": {
+      "category": "Bills",
+      "happy_money_prior": 0.28
+    },
+    "credit card payment": {
+      "category": "Bills",
+      "happy_money_prior": 0.25
+    },
+    "cc payment": {
+      "category": "Bills",
+      "happy_money_prior": 0.25
+    },
+    "atm withdrawal": {
+      "category": "Bills",
+      "happy_money_prior": 0.4
+    },
+    "atm wd": {
+      "category": "Bills",
+      "happy_money_prior": 0.4
+    },
+    "cash withdrawal": {
+      "category": "Bills",
+      "happy_money_prior": 0.4
+    },
+    "upi/zerodha": {
+      "category": "Investments",
+      "happy_money_prior": 0.7
+    },
+    "upi/groww": {
+      "category": "Investments",
+      "happy_money_prior": 0.7
+    },
+    "upi/swiggy": {
+      "category": "Food",
+      "happy_money_prior": 0.45
+    },
+    "upi/zomato": {
+      "category": "Food",
+      "happy_money_prior": 0.45
+    },
+    "upi/irctc": {
+      "category": "Travel",
+      "happy_money_prior": 0.78
+    },
+    "upi/amazon": {
+      "category": "Shopping",
+      "happy_money_prior": 0.35
+    }
+  },
+  "category_defaults": {
+    "Food": 0.48,
+    "Travel": 0.78,
+    "Learning": 0.84,
+    "Health": 0.7,
+    "Family": 0.85,
+    "Entertainment": 0.62,
+    "Shopping": 0.35,
+    "Bills": 0.22,
+    "Charity": 0.91,
+    "Investments": 0.69
+  }
+}
